@@ -1,5 +1,5 @@
 body {
-  margin: 20px;
+  margin: auto 0;
   background-color: blue;
 }
 
@@ -15,32 +15,48 @@ body {
 }
 
 .title {
-  font-family: "Lato";
+  font-family: cursive;
   color: fuchsia;
-  font-size: 50px;
+  font-size: 100px;
   text-align: center;
+  margin: 10px;
+  
 }
 
 hr {
   color: white;
 }
 
+h2 {
+  text-align: center;
+  
+}
+
 .articles {
   display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
   justify-content: center;
-  align-content: center;
   border: 3px solid fuchsia;
   background-color: lightblue;
+  align-content: center;
+  
 }
 
 .blog {
   font-family: "Lato";
+  width: 300px;
+  height: 380px;
   font-size: 16px;
   color: blue;
   border: 3px solid fuchsia;
+  padding: 20px;
+  margin: 20px;
+  flex-wrap: wrap;
+  
 }
 
 img {
-  width: 200px;
+  width: 300px;
   height: 200px;
 }
